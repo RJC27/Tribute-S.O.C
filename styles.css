@@ -18,7 +18,7 @@ header {
   background-size: cover;
   height: 50vh;
   width: 100%;
-  color: aliceblue;
+  color: #f0f8ff;
 }
 header div {
   height: auto;
@@ -35,7 +35,10 @@ header h2 {
   font-size: 1.2rem;
   font-weight: 300;
 }
-
+header a {
+  text-decoration: none;
+  color: #f0f8ff;
+}
 /* ----- Main ----- */
 .headings {
   font-size: 1.8rem;
@@ -87,8 +90,8 @@ footer h4 {
   font-weight: 200;
   margin: 15rem 7rem;
   padding: 3rem 0;
-  font-size: 2.2rem;
-  border-color: aliceblue;
+  font-size: 1.8rem;
+  border-color: #f0f8ff;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
@@ -103,4 +106,26 @@ footer h6 {
   font-size: 0.5rem;
   font-weight: 200;
   padding-left: 0.5rem;
+}
+
+/* ----- Button ----- */
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+.btn button {
+  padding: 0.6rem 1.7rem;
+  margin: 0 1rem 1rem 0;
+  background-color: #f0f8ff;
+  border-radius: 20px;
+  border-style: none;
+}
+.btn button:hover {
+  background-color: #9f9f9f;
+  cursor: pointer;
+}
+.btn button:active {
+  background-color: #1a281f;
+  outline: 3px solid #f0f8ff;
+  color: #f0f8ff;
 }

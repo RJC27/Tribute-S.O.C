@@ -57,11 +57,13 @@ header h2 {
   width: 100%;
   height: auto;
   display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 .image1 img {
-  width: 50%;
+  width: 65%;
   height: auto;
-  margin: 0 2rem;
+  margin-top: 5rem;
 }
 .image1 ul {
   list-style: none;
